@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible BrowserPair product or public-resource problem.
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include agent keys, cookies, private page content or personal data. For security issues use https://browserpair.com/security."
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Include the exact redacted error when useful.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use the smallest example on a public page or a redacted fixture.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: BrowserPair and browser versions
+      description: Include extension version, Chrome version and operating system when relevant.
+  - type: textarea
+    id: checks
+    attributes:
+      label: Verification and evidence
+      description: What did you inspect? Redact screenshots and logs before sharing.
