@@ -15,10 +15,11 @@ Connect ChatGPT, Claude, or your own AI agent to the Chrome profile you already 
 | [Product hub](https://github.com/BrowserPair/browserpair) | Setup, use cases, product questions and community |
 | [Documentation](https://docs.browserpair.com/) | Quickstart, permissions, MCP and REST reference |
 | [Examples](https://github.com/BrowserPair/examples) | Small REST examples and MCP connection recipes |
+| [Integrations](https://github.com/BrowserPair/browserpair-integrations) | Official MCP client and editor integration packages |
 | [Skills](https://github.com/BrowserPair/skills) | Reusable workflows with clear inputs, boundaries and verification |
 | [Awesome browser agents](https://github.com/BrowserPair/awesome-browser-agents) | A curated browser-agent ecosystem guide, including alternatives |
 
-Current extension version: **0.4.0**.
+Check the [Chrome Web Store listing](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof) for the currently published extension version.
 
 ## How it works
 
@@ -35,7 +36,7 @@ This organization hosts public documentation and community resources. The Browse
 
 ## Permission modes
 
-Both modes work on every website and offer every browser tool. Standard asks only before payments and purchases, sign-in, account or security changes, deleting, sending or publishing, file uploads or downloads, and passwords or secrets. Developer has no mode confirmations. Task-requested confirmations and Chrome site permissions still apply; Chrome may ask you to grant site access.
+Both modes work on every website and offer every browser tool. Standard asks only before payments and purchases, sign-in, account or security changes, deleting, sending or publishing, and passwords or secrets. File uploads and downloads are enabled by default in both modes and can be disabled separately in account Permissions. Developer has no mode confirmations. Task-requested confirmations and Chrome site permissions still apply; Chrome may ask you to grant site access.
 
 Sign in with Google, GitHub or email/password. Remote MCP: `https://mcp.browserpair.com`; REST: `https://api.browserpair.com`.
 

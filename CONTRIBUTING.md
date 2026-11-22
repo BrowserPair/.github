@@ -6,7 +6,8 @@ Thank you for helping improve BrowserPair's public documentation and developer r
 
 - Product reports and feature requests: https://github.com/BrowserPair/browserpair/issues
 - Documentation: https://docs.browserpair.com/ and its linked source repository
-- Integration code: https://github.com/BrowserPair/examples
+- Integration examples: https://github.com/BrowserPair/examples
+- Official client/editor integrations: https://github.com/BrowserPair/browserpair-integrations
 - Reusable workflows: https://github.com/BrowserPair/skills
 - Ecosystem resources: https://github.com/BrowserPair/awesome-browser-agents
 
