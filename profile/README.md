@@ -6,12 +6,13 @@
 
 Connect ChatGPT, Claude, or your own AI agent to the Chrome profile you already use. BrowserPair combines scoped browser access, human approvals, durable tasks and verified outcomes through Remote MCP and REST.
 
-[Website](https://browserpair.com) · [Start free](https://app.browserpair.com/) · [Documentation](https://docs.browserpair.com/) · [Chrome extension](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof)
+[Website](https://browserpair.com) · [ChatGPT plugin](https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668) · [Start free](https://app.browserpair.com/) · [Documentation](https://docs.browserpair.com/) · [Chrome extension](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof)
 
 ## Start here
 
 | Resource | What you will find |
 | --- | --- |
+| [ChatGPT plugin](https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668) | Connect BrowserPair in ChatGPT through its published plugin and OAuth |
 | [Product hub](https://github.com/BrowserPair/browserpair) | Setup, use cases, product questions and community |
 | [Documentation](https://docs.browserpair.com/) | Quickstart, permissions, MCP and REST reference |
 | [Examples](https://github.com/BrowserPair/examples) | Small REST examples and MCP connection recipes |
@@ -25,7 +26,7 @@ Check the [Chrome Web Store listing](https://chromewebstore.google.com/detail/ag
 
 1. Pair your Chrome profile with BrowserPair.
 2. Choose the browser, task intent and Standard or Developer mode.
-3. Connect an external agent through MCP/REST, or configure your own model in the app.
+3. For ChatGPT, [open the published BrowserPair plugin](https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668) and choose **Connect**. For Claude or other supported agents, use MCP/REST; you can also configure your own model in the app.
 4. Review approvals when needed and verify the result on the page.
 
 Signed-in sessions stay in your Chrome profile. Task observations may reach your connected model; see [Security](https://browserpair.com/security) and [Privacy](https://browserpair.com/privacy).
